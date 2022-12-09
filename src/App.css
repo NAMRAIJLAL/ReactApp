@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+.show {
+  width: fit-content !important;
+  margin-inline: auto !important;
+  align-items: center;
+}
+.size {
+  width: fit-content !important;
+  height: 50px !important;
+  /* background-color: aqua; */
+}
+.containerSize {
+  width: auto !important;
+  height: 300px !important;
+  margin-top: 15px;
+  margin-left: 50px;
+
+  /* background-color: #898e97; */
+}
+.sizeImage {
+  width: 200px !important;
+  height: 200px !important;
+  display: flex;
+  flex-flow: wrap !important;
+}
+
+.flex {
+  width: 500px !important;
+}
