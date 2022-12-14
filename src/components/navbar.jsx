@@ -1,19 +1,19 @@
 import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-// Bootstrap Bundle JS
-import "bootstrap/dist/js/bootstrap.bundle.min";
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
 const NavBar = ({ totalCounters }) => {
   return (
-    // <Container>
-    <Navbar expand="lg" variant="light" bg="info">
-      <Container>
-        <Navbar.Brand href="#">Navbar</Navbar.Brand>
-      </Container>
-    </Navbar>
-    // </Container>
+    <Box sx={{ flexGrow: 1, ml: 5, mr: 5 }}>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            NavBar
+          </Typography>
+        </Toolbar>
+      </AppBar>
+    </Box>
   );
 };
 

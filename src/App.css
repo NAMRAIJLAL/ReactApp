@@ -60,7 +60,19 @@
   display: flex;
   flex-flow: wrap !important;
 }
-
+/* 
 .flex {
   width: 500px !important;
+} */
+.flex-show {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: orange; */
+}
+.border {
+  border-radius: 5px;
+  border-inline-color: blue;
+}
+.slectContainer {
+  padding: 3px !important;
 }
